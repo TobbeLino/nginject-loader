@@ -20,7 +20,7 @@ function loader(content, sourceMap) {
   this.cacheable();
 
   // path of the file being processed
-  var filename = path.relative(this.options.context || process.cwd(), this.resourcePath).replace(/\\/g, '/'),
+  var filename = path.relative(this.options && this.options.context || process.cwd(), this.resourcePath).replace(/\\/g, '/'),
       options  = loaderUtils.parseQuery(this.query),
       useMap   = loader.sourceMap || options.sourceMap;
 
