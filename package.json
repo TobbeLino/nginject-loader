@@ -1,12 +1,12 @@
 {
   "name": "nginject-loader",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Webpack loader to migrate from legacy @ngInject pre-minifier syntax to \"ngInject\" syntax",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/bholloway/nginject-loader"
+    "url": "https://github.com/TobbeLino/nginject-loader"
   },
   "keywords": [
     "webpack",
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/bholloway/nginject-loader",
   "dependencies": {
-    "loader-utils": "^0.2.11",
+    "loader-utils": "^1.1.0",
     "nginject-migrate": "^0.0.1"
   }
 }

@@ -1,10 +1,11 @@
 # ngInject Loader
 
-[![NPM](https://nodei.co/npm/nginject-loader.png)](http://github.com/bholloway/nginject-loader)
-
 Webpack loader to migrate from legacy @ngInject pre-minifier syntax to "ngInject" syntax
 
 Use in conjunction with [ng-annotate](https://www.npmjs.com/package/ng-annotate-loader) to annotate your AngularJS code pre-minification.
+
+### Updated in this fork:
+Fixed loading with Webpack 4.4
 
 ## Rationale
 
